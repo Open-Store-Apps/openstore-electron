@@ -1,0 +1,170 @@
+{
+  // Desabilita a Telemetria
+  "telemetry.enableTelemetry": false,
+  "redhat.telemetry.enabled": false,
+
+  // Configurações dos arquivos
+  "files.autoSave": "onFocusChange",
+  "files.encoding": "utf8",
+  "files.insertFinalNewline": true,
+  "files.restoreUndoStack": true,
+  "files.saveConflictResolution": "askUser",
+  "files.enableTrash": true,
+  "files.eol": "\n",
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": false,
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/vendor/**": true,
+    "**/venv/**": true,
+    "**/wenv/**": true,
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/env/**": true,
+    "env-*": true
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+
+  // Configurações do Workbench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.sideBar.location": "left",
+  "workbench.activityBar.visible": true,
+  "workbench.activityBar.iconClickBehavior": "toggle",
+
+  // Configurações da área de navegação dos arquivos
+  "explorer.compactFolders": false,
+  "explorer.openEditors.visible": 0,
+  "explorer.autoReveal": false,
+  "explorer.decorations.badges": true,
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": true,
+  "explorer.decorations.colors": true,
+  "explorer.enableDragAndDrop": true,
+  "explorer.incrementalNaming": "smart",
+  "explorer.sortOrder": "default",
+
+  // Configurações do Editor
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.comments.insertSpace": true,
+  "editor.autoClosingBrackets": "languageDefined",
+  "editor.fontFamily": "'Jetbrains Mono', 'Fira Code', 'Consolas', 'Courier New', 'monospace'",
+  "editor.fontLigatures": true,
+  "editor.folding": true,
+  "editor.showFoldingControls": "always",
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+
+  // Configuração do Search
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/env": true,
+    "**/venv": true
+  },
+
+  // Configurações de Debug
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.console.closeOnEnd": false,
+  "debug.inlineValues": false,
+  "debug.toolBarLocation": "docked",
+  "debug.console.wordWrap": true,
+  "debug.showInStatusBar": "always",
+  "debug.openDebug": "openOnDebugBreak",
+
+  // Configuração da extensão Hungry Delete
+  "hungryDelete.enableSmartBackspace": true,
+  "hungryDelete.considerIncreaseIndentPattern": false,
+  "hungryDelete.followAbovelineIndent": false,
+  "hungryDelete.keepOneSpace": false,
+
+  // Terminal
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "editor.renderWhitespace": "all",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+
+  // Auto Close Tag
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist",
+    "twig"
+  ],
+  "auto-close-tag.disableOnLanguage": [],
+  "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+  "auto-close-tag.excludedTags": [
+    "area",
+    "base",
+    "br",
+    "col",
+    "command",
+    "embed",
+    "hr",
+    "img",
+    "input",
+    "keygen",
+    "link",
+    "meta",
+    "param",
+    "source",
+    "track",
+    "wbr"
+  ],
+  "auto-close-tag.fullMode": true,
+  "auto-close-tag.insertSpaceBeforeSelfClosingTag": false,
+  "auto-close-tag.SublimeText3Mode": true,
+
+  // Configurações do HTML
+  "html.autoClosingTags": true,
+
+  // Configurações do Javascript
+  "javascript.format.enable": true,
+  "javascript.validate.enable": true,
+
+  // Configuração do Typescript
+  "typescript.autoClosingTags": true,
+  "typescript.format.enable": true,
+  "typescript.validate.enable": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  // Configurações do ESLint
+  "eslint.packageManager": "yarn",
+  "eslint.format.enable": false,
+  "eslint.lintTask.enable": false,
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "vue"
+  ],
+
+  // Configurações do Vetur
+  "vetur.validation.template": false,
+  "vetur.format.enable": false,
+  "vetur.experimental.templateInterpolationService": true
+}

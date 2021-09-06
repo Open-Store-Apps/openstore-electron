@@ -1,0 +1,27 @@
+{
+  "recommendations": [
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "coenraads.bracket-pair-colorizer-2",
+    "rokoroku.vscode-theme-darcula",
+    "editorconfig.editorconfig",
+    "miguelsolorio.fluent-icons",
+    "jasonlhy.hungry-delete",
+    "yzhang.markdown-all-in-one",
+    "pkief.material-icon-theme",
+    "foxundermoon.shell-format",
+    "dbaeumer.vscode-eslint",
+    "christian-kohler.path-intellisense",
+    "visualstudioexptteam.vscodeintellicode",
+    "steoates.autoimport",
+    "mblode.twig-language",
+    "adrianwilczynski.alpine-js-intellisense",
+    "anbuselvanrocky.bootstrap5-vscode",
+    "octref.vetur"
+  ],
+  "unwantedRecommendations": [
+    "hookyqr.beautify",
+    "dbaeumer.jshint",
+    "ms-vscode.vscode-typescript-tslint-plugin"
+  ]
+}
